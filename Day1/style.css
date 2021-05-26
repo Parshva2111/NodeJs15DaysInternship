@@ -1,0 +1,37 @@
+#form{
+    border: 2px solid black;
+    text-align: left;
+    height: 200px;
+    width: 362px;
+    padding: 95px;
+    /* margin: 40px 275px; */
+    margin-left: 350px;
+    margin-top: 90px;
+}
+p{
+    text-align: center;
+    color: rgb(60, 118, 170);
+    margin-top: -60px;
+}
+#name{
+    padding: 2px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    
+}
+#address{
+    padding: 13px;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+#cno{
+    padding: 3px;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+#button{
+    padding: 2px;
+}
+#button1{
+    padding: 12px;
+}
