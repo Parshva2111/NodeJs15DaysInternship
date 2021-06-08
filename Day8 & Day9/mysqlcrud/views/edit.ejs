@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Edit record</h1>
+    <form method="POST">
+        Name : <input type="text" name="txt1" value="<%= db_rows_array[0].product_name %>" required>
+        Details : <input type="text" name="txt2" value="<%= db_rows_array[0].product_details%>" required>
+        Price : <input type="text" name="txt3" value="<%= db_rows_array[0].product_price %>" required>
+        <input type="submit">
+    </form>
+<a  href="/display">Display Records</a>
+</body>
+</html>
