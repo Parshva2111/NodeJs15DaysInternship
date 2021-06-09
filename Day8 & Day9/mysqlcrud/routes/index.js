@@ -26,7 +26,7 @@ router.get('/add', function(req, res, next) {
   res.render('add-form', { title: 'Express' });
 });
 
-//insert rpute
+//insert route
 router.post('/add-process', function(req, res, next) {
   console.log(req.body);
   const mybodydata = {
